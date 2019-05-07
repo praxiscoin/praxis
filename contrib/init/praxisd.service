@@ -1,0 +1,26 @@
+[Unit]
+Description=Praxis's distributed currency daemon
+After=network.target
+
+[Service]
+User=praxis
+Group=praxis
+
+Type=forking
+PIDFile=/var/lib/praxisd/praxisd.pid
+
+ExecStart=/usr/bin/praxisd -daemon -pid=/var/lib/praxisd/praxisd.pid \
+          -conf=/etc/praxis/praxis.conf -datadir=/var/lib/praxisd
+
+ExecStop=-/usr/bin/praxis-cli -conf=/etc/praxis/praxis.conf \
+         -datadir=/var/lib/praxisd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

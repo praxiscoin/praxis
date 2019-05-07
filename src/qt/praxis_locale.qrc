@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/praxis_bg.qm</file>
+        <file alias="ca">locale/praxis_ca.qm</file>
+        <file alias="cs">locale/praxis_cs.qm</file>
+        <file alias="da">locale/praxis_da.qm</file>
+        <file alias="de">locale/praxis_de.qm</file>
+        <file alias="en">locale/praxis_en.qm</file>
+        <file alias="en_US">locale/praxis_en_US.qm</file>
+        <file alias="eo">locale/praxis_eo.qm</file>
+        <file alias="es">locale/praxis_es.qm</file>
+        <file alias="es_ES">locale/praxis_es_ES.qm</file>
+        <file alias="fi">locale/praxis_fi.qm</file>
+        <file alias="fr_FR">locale/praxis_fr_FR.qm</file>
+        <file alias="hi_IN">locale/praxis_hi_IN.qm</file>
+        <file alias="hr">locale/praxis_hr.qm</file>
+        <file alias="hr_HR">locale/praxis_hr_HR.qm</file>
+        <file alias="it">locale/praxis_it.qm</file>
+        <file alias="ja">locale/praxis_ja.qm</file>
+        <file alias="ko_KR">locale/praxis_ko_KR.qm</file>
+        <file alias="lt_LT">locale/praxis_lt_LT.qm</file>
+        <file alias="nl">locale/praxis_nl.qm</file>
+        <file alias="pl">locale/praxis_pl.qm</file>
+        <file alias="pt">locale/praxis_pt.qm</file>
+        <file alias="pt_BR">locale/praxis_pt_BR.qm</file>
+        <file alias="ro_RO">locale/praxis_ro_RO.qm</file>
+        <file alias="ru">locale/praxis_ru.qm</file>
+        <file alias="sk">locale/praxis_sk.qm</file>
+        <file alias="sv">locale/praxis_sv.qm</file>
+        <file alias="tr">locale/praxis_tr.qm</file>
+        <file alias="uk">locale/praxis_uk.qm</file>
+        <file alias="vi">locale/praxis_vi.qm</file>
+        <file alias="zh_CN">locale/praxis_zh_CN.qm</file>
+        <file alias="zh_TW">locale/praxis_zh_TW.qm</file>
+    </qresource>
+</RCC>

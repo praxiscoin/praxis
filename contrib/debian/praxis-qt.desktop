@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Praxis
+Comment=Praxis P2P Cryptocurrency
+Comment[fr]=Praxis, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Praxis, eşten eşe kriptografik sanal para birimi
+Exec=praxis-qt %u
+Terminal=false
+Type=Application
+Icon=praxis128
+MimeType=x-scheme-handler/praxis;
+Categories=Office;Finance;
